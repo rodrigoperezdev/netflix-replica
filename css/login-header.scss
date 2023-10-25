@@ -1,0 +1,19 @@
+.login-header {
+  height: 90px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &__container {
+    width: 167px;
+    margin-left: 76px;
+    margin-top: 25px;
+  }
+
+  @media screen and (max-width: 700px) {
+    &__container {
+      width: 90px;
+    }
+  }
+}
